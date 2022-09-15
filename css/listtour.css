@@ -34,6 +34,141 @@ header {
   border-top: 0;
 }
 
+/* map */
+/* 
+.submap::after{
+  content: "";
+  display: block;
+  width: 50vw;
+  height: 50vh;
+  z-index: 1;
+  position:fixed;
+  top: auto;
+  right:auto;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.submap:hover::after{
+  opacity: 1;
+  background-color: rgba(189, 152, 5, 0.929);
+  top:18%;
+  transition: 0.5s;
+} */
+
+.map{
+  background-image: url("../images/map.png");
+  background-repeat: no-repeat;
+  display: block;
+  max-width: 100%;
+  height: 68vh;
+  padding-top: 3rem;
+}
+
+.sub{
+  display: none;
+  margin: 20% 15% 0 0;
+  background-color: rgb(190, 124, 3);
+  border-radius: 5px;
+}
+.dot1{
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+  background-color: brown;
+  margin: 0 0 0 5em;
+}
+.dot1:hover .sub{
+  display: block;
+  height: 50px;
+  width: 50px;
+  width:35vw;
+  height: auto;
+}
+.dot2{
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+  margin: 1.3em 0 0 7em;
+  background-color: brown;
+}
+.dot2:hover .sub{
+  display: block;
+  width:35vw;
+  height: auto;
+}.dot3{
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+  margin: 3.3em 0 0 6.6em;
+  background-color: brown;
+}
+.dot3:hover .sub{
+  display: block;
+  width:35vw;
+  height: auto;
+}
+.dot4{
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+  background-color: brown;
+  margin: 3em 0 0 11em;
+}
+.dot4:hover .sub{
+  display: block;
+  width:35vw;
+  height: auto;
+}.dot5{
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+  background-color: brown;
+  margin: 2em 0 0 10.5em;
+}
+.dot5:hover .sub{
+  display: block;
+  width:35vw;
+  height: auto;
+}
+.dot6{
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+  background-color: brown;
+  margin: 2.5em 0 0 8.3em;
+}
+.dot6:hover .sub{
+  display: block;
+  width:35vw;
+  height: auto;
+}
+.dot7{
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+  background-color: brown;
+  margin: 1.5em 0 0 6em;
+}
+.dot7:hover .sub{
+  display: block;
+  width:35vw;
+  height: auto;
+}
 .best-tour-ex .title-best-tour {
   padding-left: 15px;
   border-left: 3px solid yellowgreen;
