@@ -1,6 +1,7 @@
 @import url("./fonts.css");
 body {
-  font-family: "Huifont";
+  font-family: "Amatic SC";
+  /* font-family: "Huifont"; */
 }
 
 img {
@@ -64,15 +65,19 @@ header {
   height: 68vh;
   padding-top: 3rem;
 }
-
+.star{
+  z-index:-1;
+}
 .sub{
   display: none;
   margin: 20% 15% 0 0;
-  background-color: rgb(190, 124, 3);
+  background-color: lightgreen;
   border-radius: 5px;
+  position: relative;
+  
+  transition: height 1s easing;
 }
 .dot1{
-  content: "";
   display: block;
   width: 1em;
   height: 1em;
@@ -82,13 +87,11 @@ header {
 }
 .dot1:hover .sub{
   display: block;
-  height: 50px;
-  width: 50px;
-  width:35vw;
+  width:20vw;
   height: auto;
+  overflow: visible;
 }
 .dot2{
-  content: "";
   display: block;
   width: 1em;
   height: 1em;
@@ -98,10 +101,11 @@ header {
 }
 .dot2:hover .sub{
   display: block;
-  width:35vw;
+  width:20vw;
   height: auto;
+  overflow: visible;
+
 }.dot3{
-  content: "";
   display: block;
   width: 1em;
   height: 1em;
@@ -111,11 +115,12 @@ header {
 }
 .dot3:hover .sub{
   display: block;
-  width:35vw;
+  width:20vw;
   height: auto;
+  overflow: visible;
+
 }
 .dot4{
-  content: "";
   display: block;
   width: 1em;
   height: 1em;
@@ -125,10 +130,11 @@ header {
 }
 .dot4:hover .sub{
   display: block;
-  width:35vw;
+  width:20vw;
   height: auto;
+  overflow: visible;
+
 }.dot5{
-  content: "";
   display: block;
   width: 1em;
   height: 1em;
@@ -138,11 +144,12 @@ header {
 }
 .dot5:hover .sub{
   display: block;
-  width:35vw;
+  width:20vw;
   height: auto;
+  overflow: visible;
+
 }
 .dot6{
-  content: "";
   display: block;
   width: 1em;
   height: 1em;
@@ -152,11 +159,12 @@ header {
 }
 .dot6:hover .sub{
   display: block;
-  width:35vw;
+  width:20vw;
   height: auto;
+  overflow: visible;
+
 }
 .dot7{
-  content: "";
   display: block;
   width: 1em;
   height: 1em;
@@ -166,8 +174,9 @@ header {
 }
 .dot7:hover .sub{
   display: block;
-  width:35vw;
+  width:20vw;
   height: auto;
+  overflow: visible;
 }
 .best-tour-ex .title-best-tour {
   padding-left: 15px;
